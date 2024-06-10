@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center my-5">Smart Login System</h1>
+      <div class="login shadow-lg px-5 py-5 rounded">
+        <div class="my-3">
+          <label for="email" class="form-label fw-bold">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="LogMail"
+            class="form-control"
+            placeholder="Enter your Email"
+          />
+          <div id="email-error-message" class="text-danger"></div>
+        </div>
+        <div class="my-3">
+          <label for="password" class="form-label fw-bold">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password-login"
+            class="form-control"
+            placeholder="Enter your Password"
+          />
+        </div>
+        <div id="error-message" class="text-danger"></div>
+        <button id="loginBtn" class="btn btn-info btn-lg form-control my-3" onclick="welcome()">Log in</button>
+        <p class="text-center fs-5">Don't Have An Account? <a href="signup.html" class="text-decoration-none fw-bold">Sign Up</a></p>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
+
+

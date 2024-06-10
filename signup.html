@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="text-center my-5">Smart Login System</h1>
+        <div class="signup shadow-lg px-5 py-5 rounded ">
+          <div class="my-3 ">
+            <label for="name-signUp" class="form-label fw-bold"> name</label>
+            <input
+              type="text"
+              name="name-signUp"
+              id="name-signUp"
+              class="form-control"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="my-3 ">
+            <label for="email-signUp" class="form-label fw-bold"> Email</label>
+            <input
+              type="email"
+              name="email-signUp"
+              id="email-signUp"
+              class="form-control"
+              placeholder="Enter your Email"
+            />
+            <div id="email-error-message" class="text-danger"></div>
+          </div>
+          <div class="my-3">
+            <label for="password-signUp" class="form-label fw-bold"> password</label>
+            <input
+              type="password"
+              name="password-signUp"
+              id="password-signUp"
+              class="form-control"
+              placeholder="Enter your Password"
+            />
+            <div id="password-error-message" class="text-danger"></div>
+          </div>
+          <div class="my-3">
+            <label for="co-password" class="form-label fw-bold"> re write your password</label>
+            <input
+              type="password"
+              name="co-password"
+              id="co-password"
+              class="form-control"
+              placeholder="confirm passwoed"
+            />
+            <div id="co-password-error-message" class="text-danger"></div>
+          </div>
+         <a href="login.html" class="text-decoration-none"> <button id="signUpBtn" onclick="getInfo()" class="btn btn-info btn-lg form-control my-3">Sign Up</button></a>
+        </div>
+      </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signUp.js"></script>
+</body>
+</html>

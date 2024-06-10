@@ -1,0 +1,12 @@
+body{
+    background-image: url(../images/pexels-alecdoua-21404298.jpg);
+}
+.login{
+    box-shadow: 10px 10px rgba(255, 255, 255, 0.493);
+    background: #afc29289;
+
+
+}
+.welcome h1{
+    font-size: 5rem;
+}
